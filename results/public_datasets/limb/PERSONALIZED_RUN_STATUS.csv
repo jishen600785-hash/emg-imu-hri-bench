@@ -1,0 +1,4 @@
+﻿component,status,notes
+traditional_feature_grid,success,2232 validation candidate fits recorded; 72 selected fold tests completed.
+automatic_stable_region,not_run_due_to_scope,Optional exploration omitted to keep Stage 8A auditable and bounded.
+deep_tcn_multiscale,not_run_due_to_time,Traditional feature models completed first; deep models deferred to possible Stage 8B.
