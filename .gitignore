@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw human-subject and public-dataset files
+data/*
+!data/README.md
+datasets/
+raw_data/
+*.mat
+*.hpf
+*.npz
+
+# Trained models and large generated artifacts
+models/*
+!models/README.md
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.ts
+*.h5
+*.onnx
+*.mp4
+*.avi
+*.zip
+
+# Python experiment outputs
+outputs/
+
+# ROS / colcon generated folders
+**/build/
+**/install/
+**/install_video/
+**/install_sj/
+**/log/
+
+# Historical or machine-specific artifacts excluded from the curated release
+src/legacy/
+src/public_datasets/validate_release.py
+protocols/bingbin/BINGBIN_STAGE14_FINAL_DECISION.json
+protocols/limb/LIMB_FINAL_DECISION.json
+results/**/STAGE*_DECISION.json
+results/**/PERSONALIZED_SPLIT_HASH.json
+results/**/*.png
+results/robot/**/summary.json
+results/robot/**/video_metadata.json
+results/sj_training/results_overview.csv
+results/sj_training/results_overview_improved.csv

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the dissertation and this repository."
+title: "EMG/IMU Human-Robot Interaction Research Bench"
+type: software
+authors:
+  - family-names: "Shen"
+    given-names: "Ji"
+repository-code: "https://github.com/jishen600785-hash/emg-imu-hri-bench"
+abstract: "A reproducible EMG/IMU gesture-recognition and ROS 2 robot-control research bench with adapted multidirectional Fitts-style evaluation."
+keywords:
+  - surface electromyography
+  - inertial measurement unit
+  - human-robot interaction
+  - ROS 2
+  - MoveIt 2
+  - Fitts law
+version: "1.0.0"
+date-released: 2026-08-03
