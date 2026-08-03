@@ -1,0 +1,24 @@
+{
+  "protocol_id": "sj_static_to_dynamic_v1",
+  "selection_protocol": "Leave one complete static acquisition position out at a time; select feature set, classifier and causal history using static data only.",
+  "selection_conditions": [
+    "position 1",
+    "position 2 down",
+    "position 3 up"
+  ],
+  "final_training_conditions": [
+    "position 1",
+    "position 2 down",
+    "position 3 up"
+  ],
+  "held_out_test_condition": "dynamic",
+  "leakage_rule": "The dynamic condition is excluded from fitting, normalization, feature/model selection and history-length selection.",
+  "window_length_sec": 0.5,
+  "window_step_sec": 0.25,
+  "window_overlap_fraction": 0.5,
+  "emg_channels": 5,
+  "imu_channels": 30,
+  "model_relative_path": "artifacts/ml/optimized/improved_strict_smoothed_model.joblib",
+  "dataset_relative_path": "artifacts/prepared/window_dataset.npz",
+  "source_results_relative_path": "results/sj_training/temporal_smoothing_results.json"
+}
