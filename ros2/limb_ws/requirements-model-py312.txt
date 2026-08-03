@@ -1,0 +1,5 @@
+# Match the versions used when the deployment joblib files were created.
+numpy>=1.26,<2.1
+scipy>=1.11,<1.15
+scikit-learn==1.5.2
+joblib==1.4.2
