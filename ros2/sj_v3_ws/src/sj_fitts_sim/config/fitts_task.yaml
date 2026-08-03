@@ -1,0 +1,58 @@
+fitts_task:
+  ros__parameters:
+    subject_id: 1
+    base_frame: base_link
+    ee_frame: tool0
+    # Same short multidirectional protocol used by the Limb Position platform:
+    # 3 amplitudes * 2 target widths * 7 movements = 42 formal trials.
+    distances_m: [0.08, 0.18, 0.28]
+    widths_m: [0.025, 0.060]
+    target_count: 7
+    sequences_per_condition: 1
+    practice_enabled: true
+    practice_distance_m: 0.18
+    practice_width_m: 0.060
+    randomize_conditions: true
+    random_seed: 42
+    trial_timeout_sec: 35.0
+    homing_timeout_sec: 35.0
+    rest_confirmation_predictions: 2
+    # The Extra Trees output has five classes, so an argmax confidence is at
+    # least 0.20. Apply every causally smoothed movement prediction and keep a
+    # separate, slightly stricter gate for two-window Rest confirmation.
+    movement_confidence_threshold: 0.20
+    selection_confidence_threshold: 0.30
+    autopilot_stop_radius_m: 0.010
+    inter_trial_pause_sec: 0.50
+    base_world_z: 0.72
+    workspace_radius_m: 0.34
+
+gesture_servo:
+  ros__parameters:
+    base_frame: base_link
+    ee_frame: tool0
+    linear_speed_mps: 0.075
+    control_rate_hz: 30.0
+    confidence_threshold: 0.20
+    stable_predictions: 1
+    prediction_timeout_sec: 1.2
+    workspace_x: [-0.85, 0.85]
+    workspace_y: [-0.85, 0.85]
+
+sj_emg_replay:
+  ros__parameters:
+    subject_id: 1
+    condition: dynamic
+    publish_period_sec: 0.25
+    random_seed: 42
+
+sj_gesture_classifier:
+  ros__parameters:
+    subject_id: 1
+    expected_condition: dynamic
+
+fitts_video_recorder:
+  ros__parameters:
+    fps: 30.0
+    post_roll_sec: 2.0
+    camera_topic: /fitts/camera/image
