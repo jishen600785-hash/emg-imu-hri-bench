@@ -1,0 +1,64 @@
+fitts_task:
+  ros__parameters:
+    subject_id: 1
+    base_frame: base_link
+    ee_frame: tool0
+    # Short multidirectional protocol: three clearly separated amplitudes,
+    # two target widths, and seven near-opposite movements per A/W condition.
+    # Formal trials per fold: 3 * 2 * 7 = 42.
+    distances_m: [0.08, 0.18, 0.28]
+    widths_m: [0.025, 0.060]
+    target_count: 7
+    sequences_per_condition: 1
+    practice_enabled: true
+    practice_distance_m: 0.18
+    practice_width_m: 0.060
+    randomize_conditions: true
+    random_seed: 42
+    trial_timeout_sec: 35.0
+    homing_timeout_sec: 35.0
+    # The first of two consecutive Rest predictions is the measured selection.
+    rest_confirmation_predictions: 2
+    selection_confidence_threshold: 0.50
+    # Replay-only stopping radius is deliberately independent of target width.
+    # This prevents the benchmark controller from declaring success merely
+    # because it has entered the current target.
+    autopilot_stop_radius_m: 0.010
+    inter_trial_pause_sec: 0.50
+    base_world_z: 0.72
+    workspace_radius_m: 0.34
+
+gesture_servo:
+  ros__parameters:
+    base_frame: base_link
+    ee_frame: tool0
+    # MoveIt Servo applies singularity/joint-limit scaling in this pose.  A
+    # Keep the 0.28 m condition close to the former 0.22 m travel time.
+    linear_speed_mps: 0.075
+    control_rate_hz: 30.0
+    confidence_threshold: 0.50
+    stable_predictions: 1
+    prediction_timeout_sec: 1.2
+    workspace_x: [-0.85, 0.85]
+    workspace_y: [-0.85, 0.85]
+
+limb_emg_replay:
+  ros__parameters:
+    subject_id: 1
+    condition: StaticP1
+    chunk_samples: 63
+    trim_fraction: 0.10
+    random_seed: 42
+    stream_reserve_sec: 7.5
+
+gesture_classifier:
+  ros__parameters:
+    subject_id: 1
+    input_channels: 42
+    reset_on_ground_truth_change: true
+
+fitts_video_recorder:
+  ros__parameters:
+    fps: 30.0
+    post_roll_sec: 2.0
+    camera_topic: /fitts/camera/image
