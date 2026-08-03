@@ -1,0 +1,55 @@
+﻿dataset_name,fold_id,model_name,model_display_name,class_id,class_name,precision,recall,f1,support
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,0,Rest,0.9534282018111255,0.9735799207397622,0.9633986928104575,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,1,Fist,0.7285180572851806,0.7970027247956403,0.7612231620039037,734
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,2,WristFlexion,0.67578125,0.6929238985313751,0.6842452208305867,749
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,3,WristExtension,0.8293460925039873,0.6887417218543046,0.7525325615050651,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,4,RadialDeviation,0.6984866123399301,0.7947019867549668,0.7434944237918215,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,5,UlnarDeviation,0.7016248153618907,0.6274768824306473,0.6624825662482566,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,0,Rest,0.9686684073107049,0.9801849405548216,0.9743926460932371,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,1,Fist,0.8475274725274725,0.840599455040872,0.8440492476060192,734
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,2,WristFlexion,0.7240437158469946,0.7076101468624834,0.7157326130992573,749
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,3,WristExtension,0.7854137447405329,0.7417218543046358,0.7629427792915532,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,4,RadialDeviation,0.7347876004592423,0.847682119205298,0.7872078720787208,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,5,UlnarDeviation,0.667144906743185,0.6142668428005285,0.6396148555708391,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,0,Rest,0.9686684073107049,0.9801849405548216,0.9743926460932371,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,1,Fist,0.8475274725274725,0.840599455040872,0.8440492476060192,734
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,2,WristFlexion,0.7240437158469946,0.7076101468624834,0.7157326130992573,749
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,3,WristExtension,0.7854137447405329,0.7417218543046358,0.7629427792915532,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,4,RadialDeviation,0.7347876004592423,0.847682119205298,0.7872078720787208,755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,5,UlnarDeviation,0.667144906743185,0.6142668428005285,0.6396148555708391,757
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,0,Rest,0.9532237673830595,0.9856209150326798,0.9691516709511568,765
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,1,Fist,0.8335809806835067,0.7342931937172775,0.7807933194154488,764
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,2,WristFlexion,0.7613776137761378,0.7766624843161857,0.768944099378882,797
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,3,WristExtension,0.8847736625514403,0.8012422360248447,0.8409387222946545,805
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,4,RadialDeviation,0.7696629213483146,0.8425584255842559,0.8044627128596594,813
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,5,UlnarDeviation,0.8205714285714286,0.8681983071342201,0.8437132784958872,827
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,0,Rest,0.9694267515923567,0.9947712418300654,0.9819354838709677,765
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,1,Fist,0.7695961995249406,0.8481675392670157,0.8069738480697385,764
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,2,WristFlexion,0.8920634920634921,0.7051442910915935,0.7876664330763841,797
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,3,WristExtension,0.8085365853658537,0.8236024844720496,0.816,805
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,4,RadialDeviation,0.7555831265508685,0.7490774907749077,0.7523162445954292,813
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,5,UlnarDeviation,0.7871621621621622,0.845223700120919,0.8151603498542274,827
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,0,Rest,0.9630102040816326,0.9869281045751634,0.9748224661071659,765
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,1,Fist,0.8063623789764869,0.7630890052356021,0.7841291190316073,764
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,2,WristFlexion,0.8201342281879195,0.766624843161857,0.7924773022049286,797
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,3,WristExtension,0.876984126984127,0.8236024844720496,0.8494554772581678,805
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,4,RadialDeviation,0.7528089887640449,0.8241082410824109,0.7868467410452143,813
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,5,UlnarDeviation,0.8281786941580757,0.8742442563482467,0.8505882352941176,827
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,0,Rest,0.9863945578231292,0.9501965923984272,0.9679572763684913,763
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,1,Fist,0.9364341085271318,0.8423988842398884,0.8869309838472834,717
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,2,WristFlexion,0.6857142857142857,0.8207934336525308,0.7471980074719801,731
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,3,WristExtension,0.7735148514851485,0.8400537634408602,0.8054123711340206,744
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,4,RadialDeviation,0.8476190476190476,0.7295081967213115,0.7841409691629956,732
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,5,UlnarDeviation,0.7203856749311295,0.7144808743169399,0.7174211248285323,732
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,0,Rest,0.9971550497866287,0.9187418086500655,0.956343792633015,763
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,1,Fist,0.9180790960451978,0.9065550906555091,0.9122807017543859,717
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,2,WristFlexion,0.7033707865168539,0.8563611491108071,0.7723627390499691,731
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,3,WristExtension,0.8324538258575198,0.8481182795698925,0.8402130492676432,744
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,4,RadialDeviation,0.8494318181818182,0.8169398907103825,0.8328690807799443,732
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,5,UlnarDeviation,0.760670731707317,0.6816939890710383,0.7190201729106628,732
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,0,Rest,0.997179125528914,0.926605504587156,0.9605978260869565,763
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,1,Fist,0.9188034188034188,0.899581589958159,0.9090909090909091,717
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,2,WristFlexion,0.703125,0.8618331053351573,0.7744314689612785,731
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,3,WristExtension,0.8307086614173228,0.8508064516129032,0.8406374501992032,744
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,4,RadialDeviation,0.8583815028901735,0.8114754098360656,0.8342696629213483,732
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,5,UlnarDeviation,0.7659574468085106,0.6885245901639344,0.7251798561151079,732

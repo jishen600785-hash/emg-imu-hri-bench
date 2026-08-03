@@ -1,0 +1,10 @@
+﻿dataset_name,fold_id,model_name,model_display_name,deep_param_count,tree_node_count,train_seconds,avg_inference_ms_per_sample
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,LSTMTransformer,LSTM-Transformer,397735,0,19.84260130000621,0.03469343243773755
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,FeatureExtraTrees,Feature ExtraTrees,0,1140496,6.150791400003072,0.07011763922784818
+UCI_EMG_Data_for_Gestures,uci_subject_fold1,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,397735,1140496,25.99339270000928,0.10481107166558572
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,LSTMTransformer,LSTM-Transformer,397735,0,13.170439000001352,0.030872332844416178
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,FeatureExtraTrees,Feature ExtraTrees,0,1121372,6.415669099995284,0.07028629218255587
+UCI_EMG_Data_for_Gestures,uci_subject_fold2,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,397735,1121372,19.586108099996636,0.10115862502697205
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,LSTMTransformer,LSTM-Transformer,397735,0,18.26857480000035,0.03093125141416435
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,FeatureExtraTrees,Feature ExtraTrees,0,1097748,7.179759800004831,0.07409321113374075
+UCI_EMG_Data_for_Gestures,uci_subject_fold3,DeepFeatureFusion,LSTM-Transformer + Feature Fusion,397735,1097748,25.448334600005182,0.10502446254790511

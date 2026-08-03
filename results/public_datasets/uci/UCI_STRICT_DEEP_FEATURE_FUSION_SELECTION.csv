@@ -1,0 +1,4 @@
+﻿fold_id,deep_validation_macro_f1,feature_validation_macro_f1,fusion_validation_macro_f1,selected_deep_probability_weight,selected_feature_probability_weight,selection_used_test
+uci_subject_fold1,0.825970855420178,0.855885041146585,0.855885041146585,0.0,1.0,False
+uci_subject_fold2,0.776990767916976,0.7717709482444038,0.7857266519426869,0.30000000000000004,0.7,False
+uci_subject_fold3,0.7801476398132086,0.7914981294401001,0.7955351117727713,0.05,0.95,False
