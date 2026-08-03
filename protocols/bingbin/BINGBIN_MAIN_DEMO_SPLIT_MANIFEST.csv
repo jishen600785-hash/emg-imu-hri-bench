@@ -1,0 +1,449 @@
+protocol_id,subject_id,fold_id,fold_index,test_condition_rule,validation_condition_rule,split,condition,recording_id,action_code,action_meaning,label_id,sample_count
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_HO_cell01,HO,hand open,3,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_RT_cell02,RT,rest,5,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_ET_cell03,ET,wrist extension,0,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_PN_cell04,PN,forearm pronation,4,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_SN_cell05,SN,forearm supination,6,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_FL_cell07,FL,wrist flexion,1,675
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_PN_cell01,PN,forearm pronation,4,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_FL_cell02,FL,wrist flexion,1,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_RT_cell03,RT,rest,5,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_SN_cell04,SN,forearm supination,6,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_HO_cell05,HO,hand open,3,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_HC_cell06,HC,hand close,2,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_ET_cell07,ET,wrist extension,0,584
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_ET_cell01,ET,wrist extension,0,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_RT_cell02,RT,rest,5,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_HO_cell03,HO,hand open,3,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_PN_cell04,PN,forearm pronation,4,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_HC_cell05,HC,hand close,2,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_FL_cell06,FL,wrist flexion,1,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_SN_cell07,SN,forearm supination,6,725
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_HC_cell01,HC,hand close,2,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_FL_cell02,FL,wrist flexion,1,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_RT_cell03,RT,rest,5,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_SN_cell04,SN,forearm supination,6,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_HO_cell05,HO,hand open,3,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_ET_cell06,ET,wrist extension,0,700
+stratified_recording_rescue,1,stratified_S01_fold01,1,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_PN_cell07,PN,forearm pronation,4,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_HO_cell01,HO,hand open,3,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_RT_cell02,RT,rest,5,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_ET_cell03,ET,wrist extension,0,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_PN_cell04,PN,forearm pronation,4,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_SN_cell05,SN,forearm supination,6,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_FL_cell07,FL,wrist flexion,1,675
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_PN_cell01,PN,forearm pronation,4,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_FL_cell02,FL,wrist flexion,1,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_RT_cell03,RT,rest,5,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_SN_cell04,SN,forearm supination,6,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_HO_cell05,HO,hand open,3,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_HC_cell06,HC,hand close,2,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_ET_cell07,ET,wrist extension,0,584
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_ET_cell01,ET,wrist extension,0,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_RT_cell02,RT,rest,5,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_HO_cell03,HO,hand open,3,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_PN_cell04,PN,forearm pronation,4,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_HC_cell05,HC,hand close,2,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_FL_cell06,FL,wrist flexion,1,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_SN_cell07,SN,forearm supination,6,725
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_HC_cell01,HC,hand close,2,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_FL_cell02,FL,wrist flexion,1,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_RT_cell03,RT,rest,5,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_SN_cell04,SN,forearm supination,6,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_HO_cell05,HO,hand open,3,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_ET_cell06,ET,wrist extension,0,700
+stratified_recording_rescue,1,stratified_S01_fold02,2,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_PN_cell07,PN,forearm pronation,4,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_HO_cell01,HO,hand open,3,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_RT_cell02,RT,rest,5,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_ET_cell03,ET,wrist extension,0,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_PN_cell04,PN,forearm pronation,4,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_SN_cell05,SN,forearm supination,6,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_FL_cell07,FL,wrist flexion,1,675
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_PN_cell01,PN,forearm pronation,4,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_FL_cell02,FL,wrist flexion,1,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_RT_cell03,RT,rest,5,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_SN_cell04,SN,forearm supination,6,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_HO_cell05,HO,hand open,3,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_HC_cell06,HC,hand close,2,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_ET_cell07,ET,wrist extension,0,584
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_ET_cell01,ET,wrist extension,0,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_RT_cell02,RT,rest,5,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_HO_cell03,HO,hand open,3,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_PN_cell04,PN,forearm pronation,4,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_HC_cell05,HC,hand close,2,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_FL_cell06,FL,wrist flexion,1,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_SN_cell07,SN,forearm supination,6,725
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_HC_cell01,HC,hand close,2,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_FL_cell02,FL,wrist flexion,1,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_RT_cell03,RT,rest,5,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_SN_cell04,SN,forearm supination,6,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_HO_cell05,HO,hand open,3,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_ET_cell06,ET,wrist extension,0,700
+stratified_recording_rescue,1,stratified_S01_fold03,3,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_PN_cell07,PN,forearm pronation,4,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_HO_cell01,HO,hand open,3,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_RT_cell02,RT,rest,5,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_ET_cell03,ET,wrist extension,0,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S01_Dynamic_PN_cell04,PN,forearm pronation,4,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_SN_cell05,SN,forearm supination,6,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S01_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S01_Dynamic_FL_cell07,FL,wrist flexion,1,675
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_PN_cell01,PN,forearm pronation,4,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_FL_cell02,FL,wrist flexion,1,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S01_P0_RT_cell03,RT,rest,5,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_SN_cell04,SN,forearm supination,6,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_HO_cell05,HO,hand open,3,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S01_P0_HC_cell06,HC,hand close,2,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S01_P0_ET_cell07,ET,wrist extension,0,584
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_ET_cell01,ET,wrist extension,0,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_RT_cell02,RT,rest,5,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S01_P1_HO_cell03,HO,hand open,3,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_PN_cell04,PN,forearm pronation,4,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_HC_cell05,HC,hand close,2,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S01_P1_FL_cell06,FL,wrist flexion,1,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S01_P1_SN_cell07,SN,forearm supination,6,725
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_HC_cell01,HC,hand close,2,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_FL_cell02,FL,wrist flexion,1,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_RT_cell03,RT,rest,5,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S01_P2_SN_cell04,SN,forearm supination,6,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S01_P2_HO_cell05,HO,hand open,3,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_ET_cell06,ET,wrist extension,0,700
+stratified_recording_rescue,1,stratified_S01_fold04,4,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S01_P2_PN_cell07,PN,forearm pronation,4,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_PN_cell01,PN,forearm pronation,4,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_FL_cell02,FL,wrist flexion,1,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_RT_cell03,RT,rest,5,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_SN_cell04,SN,forearm supination,6,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_HO_cell05,HO,hand open,3,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_ET_cell07,ET,wrist extension,0,675
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_ET_cell01,ET,wrist extension,0,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_RT_cell02,RT,rest,5,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_HO_cell03,HO,hand open,3,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_PN_cell04,PN,forearm pronation,4,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_HC_cell05,HC,hand close,2,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_FL_cell06,FL,wrist flexion,1,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_SN_cell07,SN,forearm supination,6,584
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_HC_cell01,HC,hand close,2,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_FL_cell02,FL,wrist flexion,1,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_RT_cell03,RT,rest,5,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_SN_cell04,SN,forearm supination,6,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_HO_cell05,HO,hand open,3,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_ET_cell06,ET,wrist extension,0,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_PN_cell07,PN,forearm pronation,4,725
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_HO_cell01,HO,hand open,3,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_RT_cell02,RT,rest,5,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_ET_cell03,ET,wrist extension,0,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_PN_cell04,PN,forearm pronation,4,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_SN_cell05,SN,forearm supination,6,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_HC_cell06,HC,hand close,2,700
+stratified_recording_rescue,2,stratified_S02_fold01,5,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_FL_cell07,FL,wrist flexion,1,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_PN_cell01,PN,forearm pronation,4,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_FL_cell02,FL,wrist flexion,1,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_RT_cell03,RT,rest,5,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_SN_cell04,SN,forearm supination,6,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_HO_cell05,HO,hand open,3,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_ET_cell07,ET,wrist extension,0,675
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_ET_cell01,ET,wrist extension,0,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_RT_cell02,RT,rest,5,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_HO_cell03,HO,hand open,3,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_PN_cell04,PN,forearm pronation,4,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_HC_cell05,HC,hand close,2,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_FL_cell06,FL,wrist flexion,1,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_SN_cell07,SN,forearm supination,6,584
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_HC_cell01,HC,hand close,2,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_FL_cell02,FL,wrist flexion,1,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_RT_cell03,RT,rest,5,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_SN_cell04,SN,forearm supination,6,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_HO_cell05,HO,hand open,3,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_ET_cell06,ET,wrist extension,0,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_PN_cell07,PN,forearm pronation,4,725
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_HO_cell01,HO,hand open,3,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_RT_cell02,RT,rest,5,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_ET_cell03,ET,wrist extension,0,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_PN_cell04,PN,forearm pronation,4,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_SN_cell05,SN,forearm supination,6,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_HC_cell06,HC,hand close,2,700
+stratified_recording_rescue,2,stratified_S02_fold02,6,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_FL_cell07,FL,wrist flexion,1,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_PN_cell01,PN,forearm pronation,4,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_FL_cell02,FL,wrist flexion,1,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_RT_cell03,RT,rest,5,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_SN_cell04,SN,forearm supination,6,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_HO_cell05,HO,hand open,3,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_ET_cell07,ET,wrist extension,0,675
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_ET_cell01,ET,wrist extension,0,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_RT_cell02,RT,rest,5,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_HO_cell03,HO,hand open,3,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_PN_cell04,PN,forearm pronation,4,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_HC_cell05,HC,hand close,2,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_FL_cell06,FL,wrist flexion,1,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_SN_cell07,SN,forearm supination,6,584
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_HC_cell01,HC,hand close,2,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_FL_cell02,FL,wrist flexion,1,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_RT_cell03,RT,rest,5,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_SN_cell04,SN,forearm supination,6,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_HO_cell05,HO,hand open,3,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_ET_cell06,ET,wrist extension,0,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_PN_cell07,PN,forearm pronation,4,725
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_HO_cell01,HO,hand open,3,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_RT_cell02,RT,rest,5,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_ET_cell03,ET,wrist extension,0,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_PN_cell04,PN,forearm pronation,4,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_SN_cell05,SN,forearm supination,6,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_HC_cell06,HC,hand close,2,700
+stratified_recording_rescue,2,stratified_S02_fold03,7,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_FL_cell07,FL,wrist flexion,1,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_PN_cell01,PN,forearm pronation,4,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_FL_cell02,FL,wrist flexion,1,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S02_Dynamic_RT_cell03,RT,rest,5,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_SN_cell04,SN,forearm supination,6,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_HO_cell05,HO,hand open,3,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S02_Dynamic_HC_cell06,HC,hand close,2,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S02_Dynamic_ET_cell07,ET,wrist extension,0,675
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_ET_cell01,ET,wrist extension,0,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_RT_cell02,RT,rest,5,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_HO_cell03,HO,hand open,3,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S02_P0_PN_cell04,PN,forearm pronation,4,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_HC_cell05,HC,hand close,2,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S02_P0_FL_cell06,FL,wrist flexion,1,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S02_P0_SN_cell07,SN,forearm supination,6,584
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_HC_cell01,HC,hand close,2,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_FL_cell02,FL,wrist flexion,1,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_RT_cell03,RT,rest,5,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S02_P1_SN_cell04,SN,forearm supination,6,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S02_P1_HO_cell05,HO,hand open,3,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_ET_cell06,ET,wrist extension,0,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S02_P1_PN_cell07,PN,forearm pronation,4,725
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S02_P2_HO_cell01,HO,hand open,3,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_RT_cell02,RT,rest,5,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_ET_cell03,ET,wrist extension,0,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S02_P2_PN_cell04,PN,forearm pronation,4,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_SN_cell05,SN,forearm supination,6,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_HC_cell06,HC,hand close,2,700
+stratified_recording_rescue,2,stratified_S02_fold04,8,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S02_P2_FL_cell07,FL,wrist flexion,1,700
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_ET_cell01,ET,wrist extension,0,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_HO_cell02,HO,hand open,3,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_SN_cell03,SN,forearm supination,6,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_HC_cell04,HC,hand close,2,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_PN_cell05,PN,forearm pronation,4,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_RT_cell06,RT,rest,5,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_FL_cell07,FL,wrist flexion,1,650
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_RT_cell01,RT,rest,5,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_SN_cell02,SN,forearm supination,6,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_HO_cell03,HO,hand open,3,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_HC_cell04,HC,hand close,2,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_PN_cell05,PN,forearm pronation,4,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_FL_cell06,FL,wrist flexion,1,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_ET_cell07,ET,wrist extension,0,617
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_RT_cell01,RT,rest,5,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_FL_cell02,FL,wrist flexion,1,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_PN_cell03,PN,forearm pronation,4,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_ET_cell04,ET,wrist extension,0,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_HC_cell05,HC,hand close,2,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_HO_cell06,HO,hand open,3,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_SN_cell07,SN,forearm supination,6,517
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_RT_cell01,RT,rest,5,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_SN_cell02,SN,forearm supination,6,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_FL_cell03,FL,wrist flexion,1,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_ET_cell04,ET,wrist extension,0,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_PN_cell05,PN,forearm pronation,4,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_HO_cell06,HO,hand open,3,542
+stratified_recording_rescue,3,stratified_S03_fold01,9,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_HC_cell07,HC,hand close,2,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_ET_cell01,ET,wrist extension,0,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_HO_cell02,HO,hand open,3,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_SN_cell03,SN,forearm supination,6,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_HC_cell04,HC,hand close,2,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_PN_cell05,PN,forearm pronation,4,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_RT_cell06,RT,rest,5,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_FL_cell07,FL,wrist flexion,1,650
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_RT_cell01,RT,rest,5,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_SN_cell02,SN,forearm supination,6,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_HO_cell03,HO,hand open,3,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_HC_cell04,HC,hand close,2,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_PN_cell05,PN,forearm pronation,4,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_FL_cell06,FL,wrist flexion,1,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_ET_cell07,ET,wrist extension,0,617
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_RT_cell01,RT,rest,5,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_FL_cell02,FL,wrist flexion,1,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_PN_cell03,PN,forearm pronation,4,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_ET_cell04,ET,wrist extension,0,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_HC_cell05,HC,hand close,2,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_HO_cell06,HO,hand open,3,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_SN_cell07,SN,forearm supination,6,517
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_RT_cell01,RT,rest,5,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_SN_cell02,SN,forearm supination,6,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_FL_cell03,FL,wrist flexion,1,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_ET_cell04,ET,wrist extension,0,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_PN_cell05,PN,forearm pronation,4,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_HO_cell06,HO,hand open,3,542
+stratified_recording_rescue,3,stratified_S03_fold02,10,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_HC_cell07,HC,hand close,2,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_ET_cell01,ET,wrist extension,0,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_HO_cell02,HO,hand open,3,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_SN_cell03,SN,forearm supination,6,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_HC_cell04,HC,hand close,2,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_PN_cell05,PN,forearm pronation,4,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_RT_cell06,RT,rest,5,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_FL_cell07,FL,wrist flexion,1,650
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_RT_cell01,RT,rest,5,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_SN_cell02,SN,forearm supination,6,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_HO_cell03,HO,hand open,3,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_HC_cell04,HC,hand close,2,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_PN_cell05,PN,forearm pronation,4,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_FL_cell06,FL,wrist flexion,1,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_ET_cell07,ET,wrist extension,0,617
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_RT_cell01,RT,rest,5,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_FL_cell02,FL,wrist flexion,1,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_PN_cell03,PN,forearm pronation,4,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_ET_cell04,ET,wrist extension,0,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_HC_cell05,HC,hand close,2,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_HO_cell06,HO,hand open,3,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_SN_cell07,SN,forearm supination,6,517
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_RT_cell01,RT,rest,5,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_SN_cell02,SN,forearm supination,6,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_FL_cell03,FL,wrist flexion,1,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_ET_cell04,ET,wrist extension,0,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_PN_cell05,PN,forearm pronation,4,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_HO_cell06,HO,hand open,3,542
+stratified_recording_rescue,3,stratified_S03_fold03,11,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_HC_cell07,HC,hand close,2,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_ET_cell01,ET,wrist extension,0,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_HO_cell02,HO,hand open,3,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_SN_cell03,SN,forearm supination,6,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S03_Dynamic_HC_cell04,HC,hand close,2,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S03_Dynamic_PN_cell05,PN,forearm pronation,4,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_RT_cell06,RT,rest,5,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S03_Dynamic_FL_cell07,FL,wrist flexion,1,650
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_RT_cell01,RT,rest,5,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_SN_cell02,SN,forearm supination,6,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_HO_cell03,HO,hand open,3,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S03_P0_HC_cell04,HC,hand close,2,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_PN_cell05,PN,forearm pronation,4,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S03_P0_FL_cell06,FL,wrist flexion,1,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S03_P0_ET_cell07,ET,wrist extension,0,617
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_RT_cell01,RT,rest,5,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_FL_cell02,FL,wrist flexion,1,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_PN_cell03,PN,forearm pronation,4,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S03_P1_ET_cell04,ET,wrist extension,0,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_HC_cell05,HC,hand close,2,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S03_P1_HO_cell06,HO,hand open,3,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S03_P1_SN_cell07,SN,forearm supination,6,517
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_RT_cell01,RT,rest,5,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_SN_cell02,SN,forearm supination,6,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_FL_cell03,FL,wrist flexion,1,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_ET_cell04,ET,wrist extension,0,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S03_P2_PN_cell05,PN,forearm pronation,4,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S03_P2_HO_cell06,HO,hand open,3,542
+stratified_recording_rescue,3,stratified_S03_fold04,12,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S03_P2_HC_cell07,HC,hand close,2,542
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_FL_cell01,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_HC_cell02,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_RT_cell03,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_HO_cell04,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_SN_cell05,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_ET_cell06,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_PN_cell07,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_RT_cell01,RT,rest,5,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_SN_cell02,SN,forearm supination,6,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_FL_cell03,FL,wrist flexion,1,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_ET_cell04,ET,wrist extension,0,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_PN_cell05,PN,forearm pronation,4,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_HO_cell06,HO,hand open,3,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_HC_cell07,HC,hand close,2,683
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_HO_cell01,HO,hand open,3,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_FL_cell02,FL,wrist flexion,1,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_SN_cell03,SN,forearm supination,6,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_HC_cell04,HC,hand close,2,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_RT_cell05,RT,rest,5,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_ET_cell06,ET,wrist extension,0,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_PN_cell07,PN,forearm pronation,4,691
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_ET_cell01,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_PN_cell02,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_HC_cell03,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_RT_cell04,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_FL_cell05,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_HO_cell06,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold01,13,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_SN_cell07,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_FL_cell01,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_HC_cell02,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_RT_cell03,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_HO_cell04,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_SN_cell05,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_ET_cell06,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_PN_cell07,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_RT_cell01,RT,rest,5,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_SN_cell02,SN,forearm supination,6,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_FL_cell03,FL,wrist flexion,1,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_ET_cell04,ET,wrist extension,0,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_PN_cell05,PN,forearm pronation,4,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_HO_cell06,HO,hand open,3,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_HC_cell07,HC,hand close,2,683
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_HO_cell01,HO,hand open,3,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_FL_cell02,FL,wrist flexion,1,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_SN_cell03,SN,forearm supination,6,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_HC_cell04,HC,hand close,2,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_RT_cell05,RT,rest,5,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_ET_cell06,ET,wrist extension,0,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_PN_cell07,PN,forearm pronation,4,691
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_ET_cell01,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_PN_cell02,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_HC_cell03,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_RT_cell04,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_FL_cell05,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_HO_cell06,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold02,14,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_SN_cell07,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_FL_cell01,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_HC_cell02,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_RT_cell03,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_HO_cell04,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_SN_cell05,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_ET_cell06,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_PN_cell07,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_RT_cell01,RT,rest,5,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_SN_cell02,SN,forearm supination,6,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_FL_cell03,FL,wrist flexion,1,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_ET_cell04,ET,wrist extension,0,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_PN_cell05,PN,forearm pronation,4,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_HO_cell06,HO,hand open,3,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_HC_cell07,HC,hand close,2,683
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_HO_cell01,HO,hand open,3,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_FL_cell02,FL,wrist flexion,1,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_SN_cell03,SN,forearm supination,6,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_HC_cell04,HC,hand close,2,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_RT_cell05,RT,rest,5,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_ET_cell06,ET,wrist extension,0,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_PN_cell07,PN,forearm pronation,4,691
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_ET_cell01,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_PN_cell02,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_HC_cell03,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_RT_cell04,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_FL_cell05,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_HO_cell06,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold03,15,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_SN_cell07,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_FL_cell01,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_HC_cell02,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,Dynamic,S04_Dynamic_RT_cell03,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_HO_cell04,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,Dynamic,S04_Dynamic_SN_cell05,SN,forearm supination,6,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_ET_cell06,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,Dynamic,S04_Dynamic_PN_cell07,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_RT_cell01,RT,rest,5,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_SN_cell02,SN,forearm supination,6,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P0,S04_P0_FL_cell03,FL,wrist flexion,1,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_ET_cell04,ET,wrist extension,0,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_PN_cell05,PN,forearm pronation,4,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P0,S04_P0_HO_cell06,HO,hand open,3,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P0,S04_P0_HC_cell07,HC,hand close,2,683
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P1,S04_P1_HO_cell01,HO,hand open,3,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_FL_cell02,FL,wrist flexion,1,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_SN_cell03,SN,forearm supination,6,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P1,S04_P1_HC_cell04,HC,hand close,2,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_RT_cell05,RT,rest,5,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_ET_cell06,ET,wrist extension,0,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P1,S04_P1_PN_cell07,PN,forearm pronation,4,691
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_ET_cell01,ET,wrist extension,0,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,test,P2,S04_P2_PN_cell02,PN,forearm pronation,4,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_HC_cell03,HC,hand close,2,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_RT_cell04,RT,rest,5,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_FL_cell05,FL,wrist flexion,1,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,validation,P2,S04_P2_HO_cell06,HO,hand open,3,708
+stratified_recording_rescue,4,stratified_S04_fold04,16,condition=(fold_index+action_index)%4,condition=(fold_index+action_index+1)%4,train,P2,S04_P2_SN_cell07,SN,forearm supination,6,708
