@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "static_and_dynamic_source_overlap": false,
+  "saved_model_reload": true,
+  "recomputed_dynamic_accuracy": 0.9214285714285714,
+  "recomputed_dynamic_macro_f1": 0.920782246015748,
+  "matches_saved_results": true,
+  "history_windows": 7
+}

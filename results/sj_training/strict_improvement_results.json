@@ -1,0 +1,105 @@
+{
+  "protocol": "Select features/model by leave-one-position-out CV over the three static positions, refit on all static positions, evaluate dynamic condition once.",
+  "selected_feature_set": "emg_plus_imu_invariant",
+  "selected_model": "extra_trees",
+  "selection_mean_static_lopo_accuracy": 0.9053571428571429,
+  "selection_mean_static_lopo_macro_f1": 0.8903601835652704,
+  "fit_seconds": 2.8047748349999893,
+  "training_windows": 1680,
+  "dynamic_test_windows": 560,
+  "dynamic_test": {
+    "sample_count": 560,
+    "accuracy": 0.8107142857142857,
+    "balanced_accuracy": 0.8107142857142856,
+    "macro_f1": 0.8026153257194345,
+    "weighted_f1": 0.8026153257194345,
+    "confusion_matrix": [
+      [
+        101,
+        0,
+        1,
+        10,
+        0
+      ],
+      [
+        0,
+        110,
+        2,
+        0,
+        0
+      ],
+      [
+        11,
+        23,
+        52,
+        26,
+        0
+      ],
+      [
+        1,
+        1,
+        4,
+        106,
+        0
+      ],
+      [
+        0,
+        2,
+        25,
+        0,
+        85
+      ]
+    ],
+    "classification_report": {
+      "hand_close": {
+        "precision": 0.8938053097345132,
+        "recall": 0.9017857142857143,
+        "f1-score": 0.8977777777777778,
+        "support": 112.0
+      },
+      "hand_down": {
+        "precision": 0.8088235294117647,
+        "recall": 0.9821428571428571,
+        "f1-score": 0.8870967741935484,
+        "support": 112.0
+      },
+      "hand_open": {
+        "precision": 0.6190476190476191,
+        "recall": 0.4642857142857143,
+        "f1-score": 0.5306122448979592,
+        "support": 112.0
+      },
+      "hand_up": {
+        "precision": 0.7464788732394366,
+        "recall": 0.9464285714285714,
+        "f1-score": 0.8346456692913385,
+        "support": 112.0
+      },
+      "rest": {
+        "precision": 1.0,
+        "recall": 0.7589285714285714,
+        "f1-score": 0.8629441624365483,
+        "support": 112.0
+      },
+      "accuracy": 0.8107142857142857,
+      "macro avg": {
+        "precision": 0.8136310662866666,
+        "recall": 0.8107142857142856,
+        "f1-score": 0.8026153257194345,
+        "support": 560.0
+      },
+      "weighted avg": {
+        "precision": 0.8136310662866667,
+        "recall": 0.8107142857142857,
+        "f1-score": 0.8026153257194345,
+        "support": 560.0
+      }
+    }
+  },
+  "leakage_controls": [
+    "Model selection uses static conditions only.",
+    "Each validation fold holds out a whole acquisition condition.",
+    "No normalization is fitted on the dynamic test condition.",
+    "The dynamic condition is evaluated after selection."
+  ]
+}

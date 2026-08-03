@@ -1,0 +1,4 @@
+evaluation,model,dynamic_test_accuracy,dynamic_test_macro_f1,note
+strict baseline,Extra Trees,0.3928571429,0.3478509876,350-dimensional baseline statistical features
+improved window model,Extra Trees,0.8107142857,0.8026153257,position-insensitive EMG and IMU features
+causal temporal smoothing,Extra Trees plus seven-window history,0.9214285714,0.920782246,uses only current and past predictions

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "dataset_windows": 2240,
+  "source_files_per_split": {
+    "train": 10,
+    "validation": 5,
+    "test": 5
+  },
+  "source_overlap": false,
+  "balanced_classes_within_each_split": true,
+  "ml_model_load_and_predict": true,
+  "torchscript_load_and_predict": true,
+  "ml_test_accuracy": 0.39285714285714285,
+  "cnn_test_accuracy": 0.29642857142857143
+}

@@ -1,0 +1,107 @@
+{
+  "architecture": "two-branch 1D CNN (raw EMG + raw IMU fusion)",
+  "device": "cpu",
+  "train_windows": 1120,
+  "validation_windows": 560,
+  "test_windows": 560,
+  "maximum_epochs": 50,
+  "completed_epochs": 26,
+  "early_stopping_patience": 10,
+  "best_epoch": 16,
+  "best_validation_macro_f1": 0.3453776506771037,
+  "best_validation_loss": 5.024641882521766,
+  "training_seconds": 16.17182537000008,
+  "held_out_test_loss": 15.921036693028041,
+  "held_out_test": {
+    "sample_count": 560,
+    "accuracy": 0.29642857142857143,
+    "balanced_accuracy": 0.2964285714285715,
+    "macro_f1": 0.22640168534257205,
+    "weighted_f1": 0.22640168534257202,
+    "confusion_matrix": [
+      [
+        0,
+        32,
+        3,
+        77,
+        0
+      ],
+      [
+        0,
+        61,
+        3,
+        48,
+        0
+      ],
+      [
+        0,
+        34,
+        29,
+        49,
+        0
+      ],
+      [
+        0,
+        39,
+        1,
+        72,
+        0
+      ],
+      [
+        0,
+        16,
+        60,
+        32,
+        4
+      ]
+    ],
+    "classification_report": {
+      "hand_close": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 112.0
+      },
+      "hand_down": {
+        "precision": 0.33516483516483514,
+        "recall": 0.5446428571428571,
+        "f1-score": 0.41496598639455784,
+        "support": 112.0
+      },
+      "hand_open": {
+        "precision": 0.3020833333333333,
+        "recall": 0.25892857142857145,
+        "f1-score": 0.27884615384615385,
+        "support": 112.0
+      },
+      "hand_up": {
+        "precision": 0.2589928057553957,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.36923076923076925,
+        "support": 112.0
+      },
+      "rest": {
+        "precision": 1.0,
+        "recall": 0.03571428571428571,
+        "f1-score": 0.06896551724137931,
+        "support": 112.0
+      },
+      "accuracy": 0.29642857142857143,
+      "macro avg": {
+        "precision": 0.3792481948507128,
+        "recall": 0.2964285714285715,
+        "f1-score": 0.22640168534257205,
+        "support": 560.0
+      },
+      "weighted avg": {
+        "precision": 0.3792481948507128,
+        "recall": 0.29642857142857143,
+        "f1-score": 0.22640168534257202,
+        "support": 560.0
+      }
+    }
+  },
+  "saved_checkpoint": "best_cnn_evaluation_model.pt",
+  "saved_torchscript": "best_cnn_evaluation_model.ts",
+  "normalization": "Per-channel mean/std fitted only on training windows and stored inside the model."
+}
