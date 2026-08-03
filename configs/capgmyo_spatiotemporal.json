@@ -1,0 +1,47 @@
+{
+  "dataset": "CapgMyo DB-a",
+  "protocol": "18 subjects; trial-aware calibrated 3-fold; recording atomic",
+  "model": "SpatialTemporalResNetSE(classes=8)",
+  "channels": 128,
+  "electrode_grid": "16x8",
+  "frames_per_recording": 64,
+  "frame_radius": 8,
+  "folds": [
+    {
+      "fold_id": "capgmyo_trial_fold1",
+      "checkpoint_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold1_spatial_temporal_resnet_se.pt",
+      "normalizer_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold1_subject_normalization.npz",
+      "sha256": "9d3d4b79fc32d074c352c96bbaa11d86142a900c4050e4db3e7e359ce1700896",
+      "normalizer_sha256": "821d6dd996f4ca2a03ff0c331a16fee0ef80fc1426b58e9c286731825a440de2",
+      "best_epoch_rebuilt": 23,
+      "best_validation_macro_f1_rebuilt": 0.99305421570519,
+      "historical_best_epoch": 23,
+      "historical_best_validation_macro_f1": 0.99305421570519,
+      "load_check": "PASS"
+    },
+    {
+      "fold_id": "capgmyo_trial_fold2",
+      "checkpoint_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold2_spatial_temporal_resnet_se.pt",
+      "normalizer_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold2_subject_normalization.npz",
+      "sha256": "3bf0e4a6495d9073bbfd026c33470d79e95ac2807fc17056bda3638fa1d7889e",
+      "normalizer_sha256": "5f61a8ed3c828e6e4c5702e31b31c5d0c5962aea7b869f5c0d572e5cc7a44683",
+      "best_epoch_rebuilt": 19,
+      "best_validation_macro_f1_rebuilt": 0.9896302280961262,
+      "historical_best_epoch": 19,
+      "historical_best_validation_macro_f1": 0.9896302280961262,
+      "load_check": "PASS"
+    },
+    {
+      "fold_id": "capgmyo_trial_fold3",
+      "checkpoint_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold3_spatial_temporal_resnet_se.pt",
+      "normalizer_path": "models/capgmyo_spatiotemporal/capgmyo_trial_fold3_subject_normalization.npz",
+      "sha256": "c1070d414f8f51c0d29dc4d8ac3302494f8543d0a5d62f583d4b18bb2882ce3b",
+      "normalizer_sha256": "0aa975b2a66b26f86119cdb1b0c4f6ff63e3db286c4d64c8cc992a42ea6e8465",
+      "best_epoch_rebuilt": 24,
+      "best_validation_macro_f1_rebuilt": 0.9585142643470349,
+      "historical_best_epoch": 24,
+      "historical_best_validation_macro_f1": 0.9585142643470348,
+      "load_check": "PASS"
+    }
+  ]
+}

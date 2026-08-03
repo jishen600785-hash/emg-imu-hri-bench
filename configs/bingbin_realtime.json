@@ -1,0 +1,114 @@
+[
+  {
+    "artifact_role": "full-calibration subject-dependent deployment model",
+    "benchmark_metric_role": "none; Stage15 V3 remains exploratory/test-reuse",
+    "dataset": "Bingbin_Realtime",
+    "subject_id": 1,
+    "classes": [
+      "ET",
+      "FL",
+      "HC",
+      "HO",
+      "PN",
+      "RT",
+      "SN"
+    ],
+    "candidate_name": "recording_raw_knn1_k80",
+    "candidate_spec": {
+      "name": "recording_raw_knn1_k80",
+      "level": "recording",
+      "model": "knn1",
+      "select_k": 80
+    },
+    "selection_rule": "most frequently validation-selected candidate across 4 subject folds",
+    "recording_count": 28,
+    "full_recording_summary_features": true,
+    "online_causal_streaming": false,
+    "artifact_path": "models/bingbin_realtime/bingbin_subject01_deployment.joblib",
+    "sha256": "47772f845f0077a4ab1c2b6b1871d5dcedd167534d5e576128027c8c0f57dcab"
+  },
+  {
+    "artifact_role": "full-calibration subject-dependent deployment model",
+    "benchmark_metric_role": "none; Stage15 V3 remains exploratory/test-reuse",
+    "dataset": "Bingbin_Realtime",
+    "subject_id": 2,
+    "classes": [
+      "ET",
+      "FL",
+      "HC",
+      "HO",
+      "PN",
+      "RT",
+      "SN"
+    ],
+    "candidate_name": "recording_raw_knn1_k80",
+    "candidate_spec": {
+      "name": "recording_raw_knn1_k80",
+      "level": "recording",
+      "model": "knn1",
+      "select_k": 80
+    },
+    "selection_rule": "most frequently validation-selected candidate across 4 subject folds",
+    "recording_count": 28,
+    "full_recording_summary_features": true,
+    "online_causal_streaming": false,
+    "artifact_path": "models/bingbin_realtime/bingbin_subject02_deployment.joblib",
+    "sha256": "874304a1c5d02f41f8e6fa2d4ffe9ecc61f80a72000d6c1dda57494818caea0c"
+  },
+  {
+    "artifact_role": "full-calibration subject-dependent deployment model",
+    "benchmark_metric_role": "none; Stage15 V3 remains exploratory/test-reuse",
+    "dataset": "Bingbin_Realtime",
+    "subject_id": 3,
+    "classes": [
+      "ET",
+      "FL",
+      "HC",
+      "HO",
+      "PN",
+      "RT",
+      "SN"
+    ],
+    "candidate_name": "recording_raw_extra_trees",
+    "candidate_spec": {
+      "name": "recording_raw_extra_trees",
+      "level": "recording",
+      "model": "extra_trees",
+      "select_k": 160
+    },
+    "selection_rule": "most frequently validation-selected candidate across 4 subject folds",
+    "recording_count": 28,
+    "full_recording_summary_features": true,
+    "online_causal_streaming": false,
+    "artifact_path": "models/bingbin_realtime/bingbin_subject03_deployment.joblib",
+    "sha256": "e967bb94e0892ceda59f30a6508c1666997f8957df8ca26fbfadad0bad6aa754"
+  },
+  {
+    "artifact_role": "full-calibration subject-dependent deployment model",
+    "benchmark_metric_role": "none; Stage15 V3 remains exploratory/test-reuse",
+    "dataset": "Bingbin_Realtime",
+    "subject_id": 4,
+    "classes": [
+      "ET",
+      "FL",
+      "HC",
+      "HO",
+      "PN",
+      "RT",
+      "SN"
+    ],
+    "candidate_name": "recording_raw_knn1_k80",
+    "candidate_spec": {
+      "name": "recording_raw_knn1_k80",
+      "level": "recording",
+      "model": "knn1",
+      "select_k": 80
+    },
+    "selection_rule": "most frequently validation-selected candidate across 4 subject folds",
+    "recording_count": 28,
+    "full_recording_summary_features": true,
+    "online_causal_streaming": false,
+    "artifact_path": "models/bingbin_realtime/bingbin_subject04_deployment.joblib",
+    "sha256": "8c723693bf476aaff14f63648aabd5fea7fa3bdd46a6ea752531ae3b5afd3ddf"
+  }
+]

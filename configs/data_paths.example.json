@@ -1,0 +1,7 @@
+{
+  "limb_root": "<path-to-limb-data>",
+  "bingbin_root": "<path-to-bingbin-data>",
+  "uci_root": "<path-to-uci-emg-data-for-gestures>",
+  "capgmyo_root": "<path-to-capgmyo-dba>",
+  "note": "Raw datasets are not redistributed in this release."
+}

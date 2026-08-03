@@ -1,0 +1,13 @@
+{
+  "release": "emg-imu-hri-bench",
+  "random_seed": 42,
+  "model_artifact_count": 25,
+  "data_included": false,
+  "branches": [
+    "Limb personalized",
+    "Bingbin recording-level",
+    "UCI strict",
+    "CapgMyo strict"
+  ],
+  "formal_random_window_results_included": false
+}

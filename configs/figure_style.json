@@ -1,0 +1,21 @@
+{
+  "backend": "Python matplotlib",
+  "width_mm": 183,
+  "font_family": [
+    "Arial",
+    "Helvetica",
+    "DejaVu Sans"
+  ],
+  "svg_text_editable": true,
+  "pdf_fonttype": 42,
+  "raster_dpi": 600,
+  "formats": [
+    "svg",
+    "pdf",
+    "png",
+    "tiff"
+  ],
+  "legend_policy": "outside data region or direct labels",
+  "figure_count": 10,
+  "source_data_count": 10
+}

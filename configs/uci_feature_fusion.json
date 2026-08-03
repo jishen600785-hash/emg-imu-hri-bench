@@ -1,0 +1,42 @@
+{
+  "dataset": "UCI EMG Data for Gestures",
+  "protocol": "36 subjects; subject-aware 3-fold",
+  "classes": [
+    "Rest",
+    "Fist",
+    "WristFlexion",
+    "WristExtension",
+    "RadialDeviation",
+    "UlnarDeviation"
+  ],
+  "window_length": 200,
+  "window_step": 100,
+  "deep_model": "LSTMTransformerNet(channels=8, classes=6)",
+  "feature_model": "ExtraTreesClassifier",
+  "folds": [
+    {
+      "fold_id": "uci_subject_fold1",
+      "deep_probability_weight": 0.3,
+      "feature_probability_weight": 0.7,
+      "deep_weight": "models/uci_feature_fusion/uci_subject_fold1_lstm_transformer.pt",
+      "feature_weight": "models/uci_feature_fusion/uci_subject_fold1_extra_trees.joblib",
+      "selection_used_test": false
+    },
+    {
+      "fold_id": "uci_subject_fold2",
+      "deep_probability_weight": 0.425,
+      "feature_probability_weight": 0.575,
+      "deep_weight": "models/uci_feature_fusion/uci_subject_fold2_lstm_transformer.pt",
+      "feature_weight": "models/uci_feature_fusion/uci_subject_fold2_extra_trees.joblib",
+      "selection_used_test": false
+    },
+    {
+      "fold_id": "uci_subject_fold3",
+      "deep_probability_weight": 0.4,
+      "feature_probability_weight": 0.6,
+      "deep_weight": "models/uci_feature_fusion/uci_subject_fold3_lstm_transformer.pt",
+      "feature_weight": "models/uci_feature_fusion/uci_subject_fold3_extra_trees.joblib",
+      "selection_used_test": false
+    }
+  ]
+}
