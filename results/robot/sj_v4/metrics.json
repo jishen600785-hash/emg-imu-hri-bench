@@ -1,0 +1,20 @@
+{
+  "task_protocol": "short_multidirectional_EMG_robot_v4_adaptive_control",
+  "input_mode": "heldout_replay_autopilot",
+  "evaluation_protocol": "model_and_history_selected_by_leave_one_static_position_out; refit_on_all_three_static_positions; dynamic_condition_held_out_test",
+  "held_out_condition": "dynamic",
+  "completed_trials": 42,
+  "total_trials": 42,
+  "hit_count": 42,
+  "miss_count": 0,
+  "timeout_count": 0,
+  "success_rate": 1.0,
+  "mean_movement_time_s": 11.941809523809523,
+  "mean_throughput_bits_per_s": 0.37078957838413684,
+  "classification_accuracy": 0.902046783625731,
+  "mean_inference_ms": 4.769306324008105,
+  "mean_control_latency_ms": 26.993199382481965,
+  "total_direction_switches": 109,
+  "model_sha256": "600772057b82e9959c9aeb7b3b7837360aa53515630d0b85f76eac28e15c0b72",
+  "split_manifest_sha256": "8fe8c76a91d44a492e212c1fd2afdfed2006048f61d6d1346c935e9a8664253f"
+}
