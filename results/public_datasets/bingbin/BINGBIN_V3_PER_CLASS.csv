@@ -1,0 +1,8 @@
+class_id,action_code,action_name,action_meaning,precision,recall,f1,support
+0,ET,wrist extension,wrist extension,1.0,1.0,1.0,16
+1,FL,wrist flexion,wrist flexion,0.9411764705882353,1.0,0.9696969696969697,16
+2,HC,hand close,hand close,0.8333333333333334,0.9375,0.8823529411764706,16
+3,HO,hand open,hand open,0.9230769230769231,0.75,0.8275862068965517,16
+4,PN,forearm pronation,forearm pronation,1.0,0.8125,0.896551724137931,16
+5,RT,rest,rest,1.0,1.0,1.0,16
+6,SN,forearm supination,forearm supination,0.8421052631578947,1.0,0.9142857142857143,16

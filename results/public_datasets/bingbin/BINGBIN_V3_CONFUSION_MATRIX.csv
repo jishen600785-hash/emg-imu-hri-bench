@@ -1,0 +1,8 @@
+true_label_id,true_action_code,true_action_name,pred_0_ET,pred_1_FL,pred_2_HC,pred_3_HO,pred_4_PN,pred_5_RT,pred_6_SN
+0,ET,wrist extension,16,0,0,0,0,0,0
+1,FL,wrist flexion,0,16,0,0,0,0,0
+2,HC,hand close,0,0,15,1,0,0,0
+3,HO,hand open,0,1,3,12,0,0,0
+4,PN,forearm pronation,0,0,0,0,13,0,3
+5,RT,rest,0,0,0,0,0,16,0
+6,SN,forearm supination,0,0,0,0,0,0,16
