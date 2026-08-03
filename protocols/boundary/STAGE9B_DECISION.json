@@ -1,0 +1,57 @@
+{
+  "stage": "Stage 9B Bingbin HO/RT one-shot external validation",
+  "stage9b_status": "DONE",
+  "bingbin_used_for_tuning": false,
+  "model_or_threshold_changed_after_bingbin": false,
+  "external_record_count": 32,
+  "allowed_actions": {
+    "HO": "HandOpen",
+    "RT": "Rest"
+  },
+  "excluded_actions": [
+    "HC",
+    "ET",
+    "FL",
+    "PN",
+    "SN"
+  ],
+  "model_path": "reports\\cross_dataset_external_validation\\stage9a\\models\\frozen_limb_ho_rt_common_feature_model.joblib",
+  "model_type": "ShrinkageLDA",
+  "feature_scheme": "iqr_no_smoothing",
+  "threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "macro_precision": 0.25,
+    "macro_recall": 0.5,
+    "mcc": 0.0,
+    "auroc": 0.00390625,
+    "record_count": 32,
+    "model_type": "ShrinkageLDA",
+    "feature_scheme": "iqr_no_smoothing",
+    "threshold": 0.5,
+    "bingbin_used_for_tuning": false,
+    "model_or_threshold_changed_after_bingbin": false
+  },
+  "per_class": [
+    {
+      "class_label": 0,
+      "class_name": "Rest",
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 16
+    },
+    {
+      "class_label": 1,
+      "class_name": "HandOpen",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 16
+    }
+  ],
+  "external_generalization_conclusion": "NO_GO_FOR_CROSS_DATASET_GENERALIZATION_UNDER_CURRENT_PROTOCOL",
+  "runtime_seconds": 2.216803399962373
+}
